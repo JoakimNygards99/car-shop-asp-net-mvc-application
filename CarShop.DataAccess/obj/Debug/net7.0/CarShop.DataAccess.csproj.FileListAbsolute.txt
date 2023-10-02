@@ -1,0 +1,17 @@
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.AssemblyInfo.cs
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\bin\Debug\net7.0\CarShop.DataAccess.deps.json
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\bin\Debug\net7.0\CarShop.DataAccess.runtimeconfig.json
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\bin\Debug\net7.0\CarShop.DataAccess.dll
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\bin\Debug\net7.0\CarShop.DataAccess.pdb
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\bin\Debug\net7.0\CarShop.Models.dll
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\bin\Debug\net7.0\CarShop.Models.pdb
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.csproj.CopyComplete
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.dll
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\refint\CarShop.DataAccess.dll
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.pdb
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\CarShop.DataAccess.genruntimeconfig.cache
+C:\Users\jnyga\source\repos\CarShop\CarShop.DataAccess\obj\Debug\net7.0\ref\CarShop.DataAccess.dll

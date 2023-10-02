@@ -1,0 +1,16 @@
+﻿@model Car
+
+<div class="mt-3">s</div>
+<div class="mb-5">s</div>
+
+
+
+@{
+    <div class="bg-black text-center myDiv">
+        <h2>@Model.Model</h2>
+    </div>
+    <img class="imgclass" src="@Url.Content("" + Model.Path)" alt="Girl in a jacket" width="1320" height="800">
+    <p><i class="bi bi-alarm-fill hej"></i>Inlagd: 7 aug. 14:06</p>
+    <p><i class="bi bi-geo-alt-fill"></i>Skellefteå (hitta.se)</p>
+    <h1>@Model.Price Dollar</h1>
+}

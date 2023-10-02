@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Lol</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="@Url.Content("~/Images/icon-audi.png")" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CarShop.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+    
+</head>
+<body class="test">
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                            <img src="@Url.Content("~/Images/icon-audi.png")" alt="Girl in a jacket" width="80" height="80" />
+                            AudiCars.com
+                        </a>
+                        
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+
+                                <li class="nav-item">
+                                    <a class="btn btn-lg btn-danger" asp-area="" asp-controller="Shop" asp-action="Index">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-lg btn-danger" asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-lg btn-danger" asp-area="" asp-controller="Home" asp-action="Admin">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-lg btn-danger" asp-area="" asp-controller="Test" asp-action="Index">Test</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+    
+           <div class="container mt-5 test">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+           </div>
+
+            <footer id="footer" class="border-top text-muted fixed-bottom full-width-footer">
+                <div class="container-fluid bg-dark">
+                <div class="container full-width-footer">
+                    <div class="row justify-content-center ">
+                        <div class="col-2">
+                            <ul class="list-unstyled">
+                                <li class="text-danger">HJÄLP OCH SUPPORT</li>
+                                <li class="">Boka service</li>
+                                <li class="">Leveransinformation</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="list-unstyled">
+                                <li class="text-danger">KONTAKTA OSS</li>
+                                <li class="">Kontakta oss</li>
+                                <li class="">Hitta Bilhandlare</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <ul class="list-unstyled">
+                                <li class="text-danger">CarShop App</li>
+
+                                <li class="">
+                                    <i class="bi bi-apple"> App Store</i>
+                                </li>
+
+                                <li class="mb-3">
+                                    <i class="bi bi-google-play"> Google Play</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-0">
+                        <div class=" col-1">
+                            <a class="link-danger" href="https://sv-se.facebook.com/">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div>
+                        <div class=" col-1">
+                            <a class="link-danger" href="https://www.instagram.com/">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
+                        <div class=" col-1">
+                            <a class="link-danger" href="https://twitter.com/?lang=sv">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </div>
+                        <div class=" col-1">
+                            <a class="link-danger" href="https://www.youtube.com/">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+       </div>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/MultiplePages.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
